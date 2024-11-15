@@ -38,15 +38,16 @@ public:
 
 	void print();
 	// Function to output employee data to the console.
+	// Outputs in the format: Name; Employee Number; Hire Date
 
 	Employee(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY")
 		: name(n), number(id), hire_date(date) {}
 	// Constructor with parameters initialized to default values.
-	// Postcondition: name = n; number = id; date_m = mm; date_d = dd; date_y = yyyy
+	// Postcondition: name = n; number = id; hire_date = date
 
 private:
-	string name;
-	string number;
-	string hire_date;
+	string name;			// Variable to store the name of the employee.
+	string number;			// Variable to store the ID number of the employee.
+	string hire_date;		// Variable to store the date that the employee was hired.
 };
 
