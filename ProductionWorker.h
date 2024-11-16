@@ -43,7 +43,8 @@ public:
 	// Function to output employee data to the console.
 	// Outputs in the format: Name; Employee Number; Hire Date; Shift; Hourly Pay Rate
 
-	ProductionWorker(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY", int t = 0, double p = 0.00);
+	ProductionWorker(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY", int t = 0, double p = 0.00)
+		: Employee(n, id, date), shift(t), wage(p) {}
 	// Constructor with parameters initialized to default values.
 	// Postcondition: name = n; number = id; hire_date = date; shift = t; wage = p
 
