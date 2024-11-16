@@ -5,6 +5,7 @@
 // Factory Workers Project
 
 #include "ProductionWorker.h"
+#include "Employee.h"
 #include <string>
 #include <iostream>
 using namespace std;
@@ -30,13 +31,4 @@ void ProductionWorker::print()
 	
 	cout.precision(2);
 	cout << fixed << "Hourly Pay Rate: $" << getHourlyRate() << endl;
-}
-
-ProductionWorker::ProductionWorker(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY", int t = 0, double p = 0.00)
-{
-	setName(n);
-	setID(id);
-	setHireDate(date);
-	setShift(t);
-	setHourlyRate(p);
 }
