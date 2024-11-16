@@ -4,6 +4,16 @@
 // CSC 222
 // Factory Workers Project
 
+// Program Description: This program generates an employee report for a shift supervisor.
+// Required User Input: Name of the employee as string;
+//						Employee number as string;
+//						Date hired as string;
+//						Annual salary as double;
+//						Annual bonus as double;
+//						Yes/No response to add another employee (y=Yes, n=No)
+// Program Output: A report including the name, employee number, hire date, annual salary, and annual bonus for all shift supervisors.
+// Supplied Constants: The maximum number of reports that can be generated is 100.
+
 #include "ShiftSupervisor.h"
 #include <string>
 #include <iostream>
