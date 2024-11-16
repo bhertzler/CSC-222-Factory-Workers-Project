@@ -18,7 +18,7 @@ public:
 	double getSalary() { return salary; }
 	double getBonus() { return bonus; }
 	void print();
-	ShiftSupervisor(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY", double s, double b)
+	ShiftSupervisor(string n = "NAME", string id = "EMPLOYEE NUMBER", string date = "MM/DD/YYYY", double s = 0.00, double b = 0.00)
 		: Employee(n, id, date), salary(s), bonus(b) {}
 
 private:

@@ -13,8 +13,8 @@ void ShiftSupervisor::print()
 	Employee::print();
 	cout.precision(2);
 	cout << fixed;
-	cout << "Annual Salary: " << salary << endl;
-	cout << "Annual Bonus: " << bonus << endl;
+	cout << "Annual Salary: $" << salary << endl;
+	cout << "Annual Bonus: $" << bonus << endl;
 }
 
 
