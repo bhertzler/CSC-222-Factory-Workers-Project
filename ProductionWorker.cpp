@@ -10,20 +10,6 @@
 #include <iostream>
 using namespace std;
 
-/*
-string ProductionWorker::getShift()
-{
-	if (shift == 1)
-		return FIRST_SHIFT;
-	else if (shift == 2)
-		return SECOND_SHIFT;
-	else
-	{
-		return OTHER_SHIFT;
-	}
-}
-*/
-
 void ProductionWorker::print()
 {
 	Employee::print();

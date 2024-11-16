@@ -47,6 +47,7 @@ int main()
 
 		cout << "Add new employee? (Y/N): ";
 		cin >> response;
+		cin.ignore(response.length(), '\n');
 		cout << endl;
 
 		sentinel = tolower(response[0]);
