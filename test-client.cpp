@@ -4,6 +4,16 @@
 // CSC 222
 // Factory Workers Project
 
+// Program Description: This program generates an employee report for a production worker.
+// Required User Input: Name of the employee as string;
+//						Employee number as string;
+//						Date hired as string;
+//						Shift number as an int between 1 or 2 (1=Day, 2=Night);
+//						The hourly wage of the employee as double;
+//						Yes/No response to add another employee (y=Yes, n=No)
+// Program Output: A report including the name, employee number, hire date, shift time, and hourly pay rate for all production workers.
+// Supplied Constants: The maximum number of reports that can be generated is 100. Shift names supplied by ProductionWorker.
+
 #include "ProductionWorker.h"
 #include <string>
 #include <iostream>
