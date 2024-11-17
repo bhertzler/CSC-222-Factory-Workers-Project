@@ -137,6 +137,7 @@
     <ClCompile Include="ProductionWorker.cpp" />
     <ClCompile Include="ShiftSupervisor.cpp" />
     <ClCompile Include="TeamLeader.cpp" />
+    <ClCompile Include="test-client.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
